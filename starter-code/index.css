@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  background: url(utils/images/hero-bg-desktop.jpg);
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+  padding: 50px 100px;
+  color: white;
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 62vh;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  padding: 10px;
+  width: 90%;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+.input-small {
+  width: 16%;
+  padding: auto;
+}
+
+p {
+  padding-top: 30px;
+  padding-right: 300px;
+}
+
+form {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  width: 300px;
+  height: 320px;
+}
+
+.topic {
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+}
+.section {
+  width: 50%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+  width: 100vw;
+  height: 15vh;
+}
+
+table{
+    width: 60%;
+}
+
+th {
+    text-align: left;
+}
